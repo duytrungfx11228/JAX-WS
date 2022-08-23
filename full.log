@@ -1,0 +1,7 @@
+2022-08-21 12:41:00 INFO  StudentRepository:18 - read file successful
+2022-08-21 12:41:00 INFO  StudentRepository:18 - read file successful
+2022-08-21 12:41:00 INFO  StudentRepository:26 - login successful
+2022-08-21 12:41:00 INFO  StudentRepository:39 - insert successful
+2022-08-21 12:41:00 INFO  StudentRepository:18 - read file successful
+2022-08-21 12:41:01 INFO  DbContext:20 - connect successful..
+2022-08-21 12:41:01 INFO  StudentRepository:32 - insert data
