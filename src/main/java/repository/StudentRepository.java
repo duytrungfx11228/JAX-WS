@@ -29,7 +29,7 @@ public class StudentRepository {
             ps.executeUpdate();
             ps.close();
             conn.close();
-            logger.info("insert data");
+            logger.info("insert class successful");
         } catch (SQLException e) {
             logger.error(e.getMessage());
         }

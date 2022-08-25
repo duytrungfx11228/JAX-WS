@@ -8,17 +8,23 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class ThreadOne extends Thread{
-
-    private Queue<Student> studentQueue;
-    private Student student;
+    final static Logger logger = Logger.getLogger(StudentRepository.class.getName());
+    private final Queue<Student> studentQueue;
+    private final StudentRepository repository = new StudentRepository();
+    private final Student student;
     public ThreadOne(Student student){
         studentQueue = new LinkedList<>();
         this.student = student;
     }
     @Override
     public void run(){
-        StudentRepository repository = new StudentRepository();
         studentQueue.add(student);
-        repository.insertStudent(studentQueue.poll());
+        if (studentQueue.size() > 0){
+            repository.insertStudent(studentQueue.poll());
+            logger.info("insert student successful");
+        } else {
+            logger.error("insert student failed");
+        }
+
     }
 }

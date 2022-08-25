@@ -8,6 +8,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ClassRepository {
     final static Logger logger = Logger.getLogger(StudentRepository.class.getName());
@@ -15,9 +17,8 @@ public class ClassRepository {
     PreparedStatement ps = null;
     ResultSet rs = null;
     public void insertClass(Class cla){
-
         try {
-            String query = "INSERT into student ( name,code) \r\n"
+            String query = "INSERT into class (name,code) \r\n"
                     + "VALUES (?,?)";
             conn = new DbContext().connection();
             ps = conn.prepareStatement(query);
@@ -32,23 +33,33 @@ public class ClassRepository {
         }
     }
 
-    public Class getClassByName(String name){
+    public List<Class> getClassByName(String name){
+        List<Class> list = new ArrayList<>();
+
         try {
             String query = "SELECT * FROM class WHERE name=?";
             conn = new DbContext().connection();
             ps = conn.prepareStatement(query);
             ps.setString(1,name);
             rs = ps.executeQuery();
+            while (rs.next()) {
+                Class clas = new Class();
+                clas.setName(rs.getString(1));
+                clas.setCode(rs.getString(2));
+                list.add(clas);
+            }
+            if (list.size() >0){
+                logger.info("successful");
+            } else {
+                logger.info("className not exits");
+            }
 
             ps.close();
             conn.close();
-            while (rs.next()){
-                return new Class(rs.getString(1),rs.getString(2));
-            }
 
         } catch (SQLException e) {
             logger.error(e.getMessage());
         }
-        return null;
+        return list;
     }
 }

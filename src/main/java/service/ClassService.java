@@ -1,5 +1,7 @@
 package service;
 
+import entities.Class;
+
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 
@@ -7,4 +9,5 @@ import javax.jws.soap.SOAPBinding;
 @WebService
 public interface ClassService {
     int addClass(String username, String password, String name, String code);
+    boolean checkClassByName(String name);
 }

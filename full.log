@@ -5,3 +5,119 @@
 2022-08-21 12:41:00 INFO  StudentRepository:18 - read file successful
 2022-08-21 12:41:01 INFO  DbContext:20 - connect successful..
 2022-08-21 12:41:01 INFO  StudentRepository:32 - insert data
+2022-08-24 17:40:15 INFO  StudentRepository:20 - read file successful
+2022-08-24 17:40:15 ERROR StudentRepository:30 - login failed
+2022-08-24 17:40:15 ERROR StudentRepository:63 - add student failed 
+2022-08-24 17:43:24 INFO  StudentRepository:20 - read file successful
+2022-08-24 17:43:26 INFO  StudentRepository:20 - read file successful
+2022-08-24 17:43:26 INFO  StudentRepository:27 - login successful
+2022-08-24 17:58:53 INFO  StudentRepository:20 - read file successful
+2022-08-24 17:58:53 INFO  StudentRepository:20 - read file successful
+2022-08-24 17:58:53 INFO  StudentRepository:28 - login successful
+2022-08-24 20:56:22 INFO  StudentRepository:20 - read file successful
+2022-08-24 21:00:16 INFO  StudentRepository:20 - read file successful
+2022-08-24 21:00:16 INFO  StudentRepository:20 - read file successful
+2022-08-24 21:06:32 INFO  StudentRepository:20 - read file successful
+2022-08-24 21:06:32 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:20:37 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:20:37 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:20:37 INFO  StudentRepository:26 - login successful
+2022-08-25 09:20:37 INFO  StudentRepository:39 - insert successful
+2022-08-25 09:20:37 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:20:37 INFO  DbContext:20 - connect successful..
+2022-08-25 09:20:37 INFO  StudentRepository:32 - insert data
+2022-08-25 09:20:37 INFO  StudentRepository:24 - insert successful
+2022-08-25 09:22:48 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:22:48 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:22:48 INFO  StudentRepository:26 - login successful
+2022-08-25 09:23:43 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:23:43 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:23:43 INFO  StudentRepository:26 - login successful
+2022-08-25 09:24:53 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:24:53 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:24:53 INFO  StudentRepository:26 - login successful
+2022-08-25 09:25:00 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:25:00 INFO  StudentRepository:20 - read file successful
+2022-08-25 09:25:00 INFO  StudentRepository:26 - login successful
+2022-08-25 10:25:34 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:25:34 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:25:34 INFO  StudentRepository:27 - login successful
+2022-08-25 10:25:34 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:25:35 INFO  DbContext:20 - connect successful..
+2022-08-25 10:25:35 INFO  StudentRepository:28 - insert successful
+2022-08-25 10:25:35 INFO  ClassServiceImpl:27 - successful
+2022-08-25 10:28:05 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:05 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:05 INFO  StudentRepository:27 - login successful
+2022-08-25 10:28:05 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:06 INFO  DbContext:20 - connect successful..
+2022-08-25 10:28:06 INFO  StudentRepository:45 - successful
+2022-08-25 10:28:06 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:06 INFO  DbContext:20 - connect successful..
+2022-08-25 10:28:06 INFO  StudentRepository:32 - insert data successful
+2022-08-25 10:28:06 INFO  StudentRepository:24 - insert successful
+2022-08-25 10:28:45 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:45 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:45 INFO  StudentRepository:27 - login successful
+2022-08-25 10:28:45 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:45 INFO  DbContext:20 - connect successful..
+2022-08-25 10:28:45 ERROR StudentRepository:47 - failed
+2022-08-25 10:28:45 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:28:45 INFO  DbContext:20 - connect successful..
+2022-08-25 10:28:45 INFO  StudentRepository:32 - insert data successful
+2022-08-25 10:28:45 INFO  StudentRepository:24 - insert successful
+2022-08-25 10:38:28 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:38:28 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:38:28 INFO  StudentRepository:27 - login successful
+2022-08-25 10:38:28 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:38:28 INFO  DbContext:20 - connect successful..
+2022-08-25 10:38:28 ERROR StudentRepository:47 - failed
+2022-08-25 10:38:28 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:38:28 INFO  DbContext:20 - connect successful..
+2022-08-25 10:38:28 INFO  StudentRepository:32 - insert data successful
+2022-08-25 10:38:28 INFO  StudentRepository:24 - insert successful
+2022-08-25 10:45:31 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:45:31 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:45:31 INFO  StudentRepository:27 - login successful
+2022-08-25 10:45:31 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:45:31 INFO  DbContext:20 - connect successful..
+2022-08-25 10:45:31 ERROR StudentRepository:47 - failed
+2022-08-25 10:45:31 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:45:31 INFO  DbContext:20 - connect successful..
+2022-08-25 10:45:31 INFO  StudentRepository:32 - insert data successful
+2022-08-25 10:45:31 INFO  StudentRepository:24 - insert successful
+2022-08-25 10:46:00 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:46:00 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:46:00 INFO  StudentRepository:26 - login successful
+2022-08-25 10:46:00 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:46:01 INFO  DbContext:20 - connect successful..
+2022-08-25 10:46:01 ERROR StudentRepository:47 - failed
+2022-08-25 10:46:01 INFO  StudentRepository:20 - read file successful
+2022-08-25 10:46:01 INFO  DbContext:20 - connect successful..
+2022-08-25 10:46:01 INFO  StudentRepository:32 - insert data successful
+2022-08-25 10:46:01 INFO  StudentRepository:24 - insert successful
+2022-08-25 11:01:42 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:01:42 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:01:42 INFO  StudentRepository:23 - login successful
+2022-08-25 11:01:42 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:01:42 INFO  DbContext:20 - connect successful..
+2022-08-25 11:01:42 ERROR StudentRepository:47 - failed
+2022-08-25 11:01:42 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:01:42 INFO  DbContext:20 - connect successful..
+2022-08-25 11:01:42 INFO  StudentRepository:32 - insert data successful
+2022-08-25 11:01:42 INFO  StudentRepository:24 - insert successful
+2022-08-25 11:18:57 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:57 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:57 INFO  StudentRepository:23 - login successful
+2022-08-25 11:18:57 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:58 INFO  DbContext:20 - connect successful..
+2022-08-25 11:18:58 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:58 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:58 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:58 INFO  DbContext:20 - connect successful..
+2022-08-25 11:18:58 INFO  StudentRepository:30 - insert successful
+2022-08-25 11:18:58 INFO  ClassServiceImpl:29 - successful
+2022-08-25 11:18:58 INFO  StudentRepository:20 - read file successful
+2022-08-25 11:18:58 INFO  DbContext:20 - connect successful..
+2022-08-25 11:18:58 INFO  StudentRepository:32 - insert data successful
+2022-08-25 11:18:58 INFO  StudentRepository:24 - insert successful
